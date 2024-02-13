@@ -1,0 +1,188 @@
+
+
+
+@media only screen and (max-width:1220px) {
+    .btn-centre{
+        width: 100%;
+        text-align: center;
+    }
+    .btn,input[type=submit]{
+        padding: 1% 3%;
+    }
+    .section-features .long-copy{
+        width: 90%;
+    }
+    .section-plans .plan-type {
+        font-size: 110%;
+    }
+    .plan-content{
+        font-size: 100%;
+
+    }
+    .steps-btn .btn-ghost{
+        margin-left: 2%;
+        padding: 2% 4%;
+    }
+    .steps-btn .btn-full{
+        margin-left: 2%;
+        padding: 2% 4%;
+    }
+}
+
+
+/*-----------------------*/
+/*-----------------------*/
+
+@media only screen and (max-width:1023px) {
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0px;
+    }
+    .section-features .long-copy{
+        width: 100%;
+    }
+    .step-box:first-child{
+        margin-top: 7%;
+    }
+    .step-box:last-child{
+        margin-top: 2%;
+    }
+
+    .jiofi-img{
+        width: 100%;
+        height: auto;
+    }
+    .steps-btn .btn-full{
+        margin-left: 4%;
+        padding: 1% 3%;
+    }
+    h2:after{
+        margin-top: 20px;
+    }
+    .steps-btn .btn-ghost{
+        margin-left: 1%;
+        padding: 1% 3%;
+    }
+
+    .each-step p{
+        margin-left: 15%;
+        padding-top: 0;
+        line-height: 145%;
+
+    }
+    .section-plans .row:last-of-type{
+        width: 95%;
+    }
+    .form-suggestion{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 30px 0px;
+    }
+    .col{
+        width: 100%;
+    }
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .section-jio-apps{
+        padding:5% 0px 36% 0px;
+    }
+    .app-pic figcaption{
+        font-size: 90%;
+        padding-top: 5%;
+    }
+    .app-pic:hover{
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    .jiofi-img{
+        width: 70%;
+    }
+    .step-box:first-child{
+        padding-right: 0%;
+        margin-top: -2%;
+        text-align: center;
+    }
+    .step-box:last-child{
+        padding-left: 2%;
+        margin-top: 3%;
+    }
+    .each-step p{
+        margin-left: 10%;
+    }
+    .steps-btn .btn-full{
+        margin-left: 10%;
+    }
+    .section-plans .col{
+        margin: 1% 1% 1% 1%;
+        width: 48%;
+    }
+    blockquote{
+        margin-bottom: 3%;
+    }
+    .hero-text-box{
+        width: 70%;
+    }
+    .section-features .long-copy{
+        text-align: justify;
+        margin-bottom: 3%;
+    }
+    .box p{
+        line-height: 125%;
+        text-align: center;
+
+    }
+    .icon-big{
+        margin-bottom: 2%;
+    }
+    .section-features h3{
+        margin-bottom: 2%;
+    }
+
+    .footer-nav{
+        float:none;
+    }
+    .social-link{
+        margin-top: 3%;
+        float:none;
+    }
+    footer .col{
+        text-align: center;
+    }
+    .form-suggestion .col:first-of-type{
+        margin: 0% 0% 0% 0%;
+        font-size: 110%;
+    }
+    .form-suggestion .col:last-of-type{
+        margin: 2% 0% 4% 0%;
+    }
+    input[type=checkbox]{
+    margin: 1% 3% 2% 2%;
+}
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+    section{
+        padding: 25px 0px;
+    }
+    .form-suggestion{
+        width: 100%;
+    }
+
+}
